@@ -19,6 +19,12 @@ n-queens
 palindrom
     Simply check for palindrom
 
+echo-server
+    Working - Translation from erlang implementation
+
+old-lady-swallowed-a-flay
+    Working - but I'm not completely happy
+    
 
 Usage
 =====
