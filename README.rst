@@ -20,11 +20,13 @@ palindrom
     Simply check for palindrom
 
 echo-server
-    Working - Translation from erlang implementation
+    Translation from erlang implementation
 
 old-lady-swallowed-a-flay
-    Working - but I'm not completely happy
-    
+    Working - can be improved
+   
+nth
+    Can perhaps be simplified
 
 Usage
 =====
