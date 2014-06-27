@@ -16,6 +16,8 @@ n-queens
     Only implemented one solution using heuristics. Adding back-tracing to find
     all solutions would be nice
 
+palindrom
+    Simply check for palindrom
 
 
 Usage

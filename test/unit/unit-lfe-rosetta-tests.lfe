@@ -9,3 +9,11 @@
 
 (deftest my-adder
   (is-equal 4 (: lfe-rosetta my-adder 2 2)))
+
+(deftest palindrom
+  (is-equal 'true (: palindrom-detection palindrom? "amanaplanacanalpanama"))
+  (is-equal 'false (: palindrom-detection palindrom? "idon'tthinkso")))
+
+(deftest palindrom-case-space
+  (is-equal 'true (: palindrom-detection palindrom? "A man a plan a canal Panama"))
+  (is-equal 'false (: palindrom-detection palindrom? "Working nine to five")))
